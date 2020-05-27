@@ -1,0 +1,366 @@
+/*navigation*/
+.navigation {
+	width: 1200px;
+	height: 101px;
+	margin: 0 auto;
+}
+.navigation img {
+	padding-top: 33px;
+	float: left;
+}
+.navigation p{
+	padding-top: 42px;
+	margin-left: 72px;
+	float: left;
+}
+.navigation p a{
+	width: 38px;
+	color: #050505;
+	font-size: 18px;
+	padding: 0px 8px 10px 8px;
+	margin: 0 15px;
+	text-align: center;
+}
+.navigation p a:hover{
+	border-bottom: 2px solid #00A4FF;
+}
+.navigation form{
+	height: 40px;
+	padding-top: 31px;
+	padding-left: 164px;
+	float: left;
+}
+.search{
+	width: 320px;
+	height: 14px;
+	padding: 12px 19px;
+	border: 1px solid #00A4FF;
+}
+.submit{
+	width: 50px;
+	height: 40px;
+	border: 1px solid #00A4FF;
+	background: rgba(0,164,255,1) url(../images/search.png) no-repeat center center;
+	cursor: pointer;
+	vertical-align: bottom;
+}
+.personalCenter{
+	float: left;
+	width: 60px;
+	font-size: 14px;
+	color: rgba(102,102,102,1);
+	padding-top: 44px;
+	margin-left: 31px;
+}
+.personalCenter:hover{
+	color: #00A4FF;
+}
+
+/*ad*/
+.ad{
+	width: 100%;
+	height: 420px;
+	background-color: #1C036C;
+}
+.pic{
+	width: 1200px;
+	height: 420px;
+	margin: 0 auto;
+	position: relative;
+}
+.pic{
+	padding-left: 30px;
+}
+.pic ul{
+	width: 190px;
+	height: 420px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/courseBackground.png);
+}
+.pic ul li{
+	height: 46px;
+	line-height: 46px;
+	padding-left: 20px;
+}
+.pic ul li a{
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+}
+.pic ul li a div{
+	position: absolute;
+	left: 144px;
+	top: 3px;
+	width: 10px;
+	height: 10px;
+	background: url(../images/arrow1.png) no-repeat center;
+}
+.pic ul li a:hover div{
+	background: url(../images/arrow2.png) no-repeat center;
+}
+.pic ul li a:hover{
+	color: #00B4FF;
+}
+/*main*/
+.main{
+	width: 100%;
+	height: 1520px;
+	padding-top: 8px;
+	background-color: rgb(243,245,247);
+}
+	/*option*/
+.option{
+	width: 1200px;
+	height: 60px;
+	margin: 0px auto;
+	background: url(../images/rectangle40.png) no-repeat center center;
+}
+.option p{
+	width: 1075px;
+	padding: 21px 0;
+	display: inline-block;
+}
+.option p a{
+	color: #000;
+	font-size: 16px;
+	width: 120px;
+	padding: 0 34px;
+	border-left: 1px solid #BFBFBF;
+	text-align: center;
+}
+.option p a:hover {
+	color: #00A4FF;
+}
+.option p .specialFirst{
+	border-left: 0;
+}
+.modifyInterest{
+	font-size: 16px;
+	color: #00A4FF;
+}
+	/*text1*/
+.text{
+	width: 1200px;
+	padding-top: 37px;
+	margin: 0 auto;
+}
+.text>div>span{
+	font-size:20px;
+	color: #494949;
+}
+.text>div>a{
+	font-size:12px;
+	color:rgba(165,165,165,1);
+	float: right;
+	padding-right: 31px;
+}
+.text>div>a:hover{
+	color: #00A4FF;
+}
+.text .layer{
+	margin-top: 21px;
+}
+.text div ul li{
+	float: left;
+	padding-right: 15px;
+}
+.text div ul .specialLi{
+	padding-right: 0;
+}
+.text .layer ul li .unit{
+	position: relative;
+	width: 228px;
+	height: 270px;
+}
+.text .layer ul li .unit a .blank{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 228px;
+	height: 115px;
+}
+.text .introduce{
+	position: absolute;
+	bottom: 57px;
+	left: 23px;
+	height: 34px;
+	width: 185px;
+	font-size:14px;
+	color:rgba(5,5,5,1);
+}
+.text .state{
+	position: absolute;
+	bottom: 26px;
+	left: 23px;
+	height: 13px;
+	font-size:12px;
+	color:rgba(255,124,45,1);
+}
+.text .state .littleFont{
+	color: #767676;
+}
+.text .state .boldFont{
+	font-weight: bolder;
+	color: #767676;
+}
+.text a:hover .introduce{
+	color: #00A4FF;
+}
+.text .reMarginLayer2{
+	margin-top: 15px;
+}
+	/*text2*/
+.text2 .layer{
+	margin-top: 18px;
+}
+.text2 .level{
+	width: 327px;
+	height: 17px;
+	margin-left: 291px;	
+}
+.text2 .level a{
+	color: #868686;
+	font-size: 16px;
+	padding-right: 68px;
+} 
+.text2 .level a:hover{
+	color: #00A4FF;
+}
+	/*text3*/
+.text3{
+	padding-top: 35px;
+}
+.text3 .layer .poster{
+	width: 471px;
+	height: 320px;
+	padding-right: 15px;
+	float: left;
+	position: relative;
+}
+.poster .words1{
+	width: 163px;
+	height: 62px;
+	position: absolute;
+	left: 25px;
+	top: 80px;
+}
+.words1 .change1{
+	color: #F9E103;
+	font-size: 30px;
+}
+.words1 .change2{
+	color: #FFFFFF;
+	font-size: 27px;
+}
+.poster .words2{
+	width: 87px;
+	height: 25px;
+	position: absolute;
+	left: 28px;
+	bottom: 122px;
+	color: #F9E103;
+	font-size: 13px;
+	text-align: center;
+	line-height: 25px;
+	border:1px solid #F9E103;
+}
+.text3 .words3{
+	width: 108px;
+	height: 18px;
+	position: absolute;
+	left: 29px;
+	top: 212px;
+}
+.words3 .change3{
+	font-size: 18px;
+	color: #fff;
+}
+.words3 .change4{
+	font-size: 14px;
+	color: rgba(239,239,240,1);
+}
+.text3 .words4{
+	width: 178px;
+	height: 56px;
+	font-size: 12px;
+	color: rgba(239,239,240,1);
+	position: absolute;
+	top: 249px;
+	left: 29px;
+}
+.text3 .unit a:hover div{
+	color: #00A4FF;
+}
+/*footer*/
+.footer{
+	width: 100%;
+	height: 417px;
+}
+.container{
+	width: 1200px;
+	height: 417px;
+	margin: 0 auto;
+	position: relative;
+}
+.container .footerimg{
+	position: absolute;
+	top: 124px;
+	left: 20px;
+}
+.container .words5{
+	width: 400px;
+	height: 12px;
+	position: absolute;
+	left: 20px;
+	top: 195px;
+	font-size: 12px;
+	color: #666666;
+}
+.container .downloadApp{
+	width: 120px;
+	height: 36px;
+	border: 1px solid #00A4FF;
+	line-height: 36px;
+	text-align: center;
+	position: absolute;
+	top: 240px;
+	left: 20px;
+}
+.container .downloadApp:hover {
+	background-color: rgba(239,239,240,1);
+	cursor: pointer;
+}
+.downloadApp a{
+	color:  #00A4FF;
+}
+.help{
+	width: 100px;
+	height: 128px;
+	position: absolute;
+	top: 129px;
+}
+.help>span{
+	color: #333333;
+	font-size: 16px;
+}
+.help ul{
+	margin-top: 15px;
+}
+.help ul li a{
+	color: #333333;
+	font-size: 12px;
+}
+.help ul li a:hover{
+	color: #00A4FF;
+}
+.help1{
+	left: 666px;
+}
+.help2{
+	left: 891px;
+}
+.help3{
+	left: 1107px;
+}
